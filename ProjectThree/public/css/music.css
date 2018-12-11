@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+#container {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+#kousei img {
+    width: 100%;
+    /*margin-left: 3%;*/
+}
+#kaori img {
+    width: 100%;
+}
+/*#top {*/
+    /*align-self: center;*/
+/*}*/
+h1 {
+    color: white;
+    font-size: 32px;
+}
+p {
+    color: white;
+    padding: 5%;
+}
+
+@media screen and (min-width: 426px) {
+    #infokousei {
+        margin-top: -30%;
+        margin-left: 50%;
+        width: 50%;
+    }
+    #infokaori {
+        margin-top: -50%;
+        width: 50%;
+    }
+    #kousei {
+        width: 50%;
+    }
+    #kaori img {
+        margin-left: 50%;
+        width: 50%;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 602px){
+    #infokaori {
+        margin-top: -30%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #infokaori {
+        margin-top: -35%;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 943px) {
+    #infokaori {
+        margin-top: -29%;
+    }
+}

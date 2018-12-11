@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+}
+img {
+    width: 100%;
+}
+.words {
+    padding: 5%;
+}
